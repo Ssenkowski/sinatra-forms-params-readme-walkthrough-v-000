@@ -8,7 +8,7 @@ class App < Sinatra::Base
 
   # Add your post route and action below #How do I know where to put it?
   post '/food' do
-    <form method="POST" action="/food">
+    params.to_s
   end
 
 end
